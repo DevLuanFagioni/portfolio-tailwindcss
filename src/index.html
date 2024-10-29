@@ -6,11 +6,32 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="output.css">
 </head>
-<body>
+<body >
 
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+    <header class="z-20 w-4/5 fixed top-7 left-2/4 -translate-x-1/2 flex justify-between items-center text-teste text-xl text-principal">
+        <h1>Jovanca</h1>
+
+        <nav class="max-tablet:hidden" >
+            <ul class="flex gap-7" >
+                <li><a class="hover:underline hover:text-secundario" href="">Home</a></li>
+                <li><a class="hover:underline hover:text-secundario"  href="">About</a></li>
+                <li><a class="hover:underline hover:text-secundario"  href="">Services</a></li>
+                <li><a class="p-2 border border-solid border-white" href="">Hire me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class= "z-10 relative h-screen bg-gradiente flex flex-col justify-end items-center gap-y-20" >
+        <div class="text-center font-bold" >
+            <h1 class="text-principal laptop:text-titulo text-subtitulo" >I’m Jovanka Lovata.</h1>
+            <p class="text-secundario text-paragrafo" >UI/UX Designer and Web Developer</p>
+        </div>
+        <img class="max-w-sm tablet:max-w-md" src="./img/home.png" alt="">
+        <p class="absolute left-0 max-tablet:-left-20 top-1/2 translate-y-1/2 text-secundario font-bold tracking-[30px] text-paragrafo rotate-[270deg]" >JOVANKA</p>
+    </section>
+
+
+
 
 </body>
 </html>
